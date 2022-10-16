@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+  }
+
+  .image-container {
+    margin-left: 55vw;
+    margin-top: 20vh;
+    width: 407px;
+    height: 480px;
+    position: fixed;
+  }
+
+  .tombstone-box {
+    margin-left: 55vw;
+    margin-top: 15vh;
+    width: 407px;
+    height: 480px;
+    position: fixed;
+    display: none;
+  }
+
+  .tombstone {
+    width: 407px;
+    height: 480px;
+    position: fixed;
+  }
+
+  .second-tombstone-box {
+    overflow: hidden;
+    position: fixed;
+    margin-top: 80px;
+    height: 400px;
+    vertical-align: bottom;
+  }
+
+  .tombstone-2 {
+    width: 407px;
+    height: 480px;
+    margin-top: -80px;
+  } 
